@@ -1,0 +1,37 @@
+.navigator {
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    border-bottom: solid 1px #333;
+    align-items: center;
+}
+
+.navigator .logo img{
+    width: 10rem;
+}
+
+.navigator .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.4rem;
+    justify-content: center;
+}
+
+.navigator a {
+    color: #CCC;
+    text-decoration: none;
+}
+
+.navigator a:hover {
+    color: var(--primary);
+}
+
+.social-links {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.social-links li{
+    list-style: none;
+}

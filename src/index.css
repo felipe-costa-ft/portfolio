@@ -1,0 +1,10 @@
+:root {
+    --backgroud: #121412;
+    --primary: #3BC236;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--backgroud);
+    color: white;
+}

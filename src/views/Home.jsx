@@ -1,11 +1,12 @@
 import React from 'react';
+import Navigator from '../components/Navigator'
 
 const Home = (props) => {
 
-    return(
-        <div>
-            <h1>Home</h1>
-        </div>
+    return (
+        <React.Fragment>
+            <Navigator />
+        </React.Fragment>
     );
 }
 
