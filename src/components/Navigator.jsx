@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 import './Navigator.css';
-import logo from '../logo-portfolio.svg';
+import logo from '../images/logo-portfolio.svg';
 
 const Navigator = props => {
     return (

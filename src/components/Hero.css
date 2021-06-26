@@ -1,0 +1,26 @@
+.hero {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero .hero-image {
+    width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.hero h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #CCC;
+    margin: 0;
+}
+
+.hero h2:hover {
+    letter-spacing: 1px;
+    transition: ease 1s;
+}
