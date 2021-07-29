@@ -35,3 +35,35 @@
 .social-links li{
     list-style: none;
 }
+
+@media(max-width: 600px) {
+
+    .navigator .logo img{
+        width: 8rem;
+    }
+
+    .navigator {
+        justify-content: none;
+    }
+
+    .navigator .menu {
+        display: block;
+    }    
+
+    
+}
+
+@media(max-width: 430px) {
+    .navigator .logo img{
+        width: 7rem;
+    }
+
+    .navigator a {
+        font-size: 0.8em;
+    }
+
+    .social-links {
+        gap: 0.5em;
+    }
+   
+}

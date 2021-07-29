@@ -1,14 +1,16 @@
 import React from 'react';
 
-import Navigator from '../components/Navigator'
 import Hero from '../components/Hero';
+import About from '../components/About';
+import Knowledges from '../components/Knowledges'
 
 const Home = (props) => {
 
     return (
         <React.Fragment>
-            <Navigator />
             <Hero />
+            <About />
+            <Knowledges />
         </React.Fragment>
     );
 }

@@ -24,3 +24,46 @@
     letter-spacing: 1px;
     transition: ease 1s;
 }
+
+@media(max-width: 1230px){
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 1110px){
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        gap: 5em;
+    }
+    
+    .hero h1 {
+        font-size: 3em;
+    }
+    
+    .hero h2 {
+        font-size: 2em;
+    }    
+
+}
+
+@media(max-width: 530px){
+    .hero .hero-image {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero h2 {
+        font-size: 1.5em;
+    }
+}

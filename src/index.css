@@ -8,3 +8,7 @@ body {
     background-color: var(--backgroud);
     color: white;
 }
+
+section {
+    margin: 5em auto;
+}
