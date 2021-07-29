@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Navigator from '../components/Navigator'
-import Footer from '../components/Footer';
 import Professional from '../components/Professional';
 import Academic from '../components/Academic'
 import styled from 'styled-components';

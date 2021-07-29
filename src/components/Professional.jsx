@@ -1,7 +1,5 @@
 import React from 'react';
 
-import styled from 'styled-components';
-
 import SectionTitle from './SectionTitle';
 import ExperienceBox from './ExperienceBox';
 

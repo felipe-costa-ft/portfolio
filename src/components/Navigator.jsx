@@ -20,8 +20,8 @@ const Navigator = props => {
                 <li><Link to="/curriculum">Currículo</Link></li>
             </ul>
             <ul className="social-links">
-                <li><a target="_blank" href="https://www.linkedin.com/in/felipe-g-costa/"><FaLinkedin size="1.5em" /></a></li>
-                <li><a target="_blank" href="https://github.com/felipe-costa-ft"><FaGithub size="1.5em" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/felipe-g-costa/"><FaLinkedin size="1.5em" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://github.com/felipe-costa-ft"><FaGithub size="1.5em" /></a></li>
             </ul>
         </nav>
     );

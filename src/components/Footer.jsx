@@ -42,8 +42,8 @@ const Footer = props => {
             <Logo src={logo} />
             <Contact>Email: felipecosta@ieee.org</Contact>
             <SocialLinks>
-                <a target="_blank" href="https://www.linkedin.com/in/felipe-g-costa/"><FaLinkedin size="1.5em" /></a>
-                <a target="_blank" href="https://github.com/felipe-costa-ft"><FaGithub size="1.5em" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/felipe-g-costa/"><FaLinkedin size="1.5em" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/felipe-costa-ft"><FaGithub size="1.5em" /></a>
             </SocialLinks>
         </StyledFooter>
     );
