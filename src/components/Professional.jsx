@@ -6,7 +6,23 @@ import ExperienceBox from './ExperienceBox';
 const Professional = props => {
     return (
         <section>
+
             <SectionTitle>Experiência Profissinal</SectionTitle>
+
+            <ExperienceBox>
+                <h1>Desenvolvedor Freelancer</h1>
+                <h2>Julho 2019 - Atualmente</h2>
+
+                <p>Atuei com diversos clientes desenvolvendo soluções ágeis
+                de projetos de software.</p>
+                <p>Projetos:</p>
+                <p>Conversão de conteúdo interativo para EAD da tecnologia
+                Flash para tecnologias mais recentes como HTML5.</p>
+                <p>Desenvolvimento de interfaces interativas para materiais
+                de capacitação.</p>
+                <p>Desenvolvimento de sites institucionais.</p>
+            </ExperienceBox>
+
             <ExperienceBox>
                 <h1>IEEE Computer Society UnB</h1>
                 <h2>Presidente - Voluntário</h2>
