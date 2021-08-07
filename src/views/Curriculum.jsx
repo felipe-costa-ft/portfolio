@@ -29,7 +29,7 @@ const Curriculum = (props) => {
     return (
         <React.Fragment>
             <DownloadSection>
-                <DownloadButton target="_blank" href="https://drive.google.com/file/d/1qyw5Uy_dpLF043ojsEfVI67QISK3rhCW/view?usp=sharing">Baixar currículo em pdf</DownloadButton>
+                <DownloadButton target="_blank" href="https://drive.google.com/file/d/1fwzDO6ehniY3EXZ7Qacxc-YHRpInhB9W/view?usp=sharing">Baixar currículo em pdf</DownloadButton>
             </DownloadSection>
             <Professional />
             <Academic />
